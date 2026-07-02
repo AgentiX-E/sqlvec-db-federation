@@ -1,0 +1,9 @@
+{
+  "name": "@agentix-e/sqlvec-db-federation",
+  "version": "0.1.0-alpha",
+  "description": "Cross-datacenter federated deployment for SqlVec DB",
+  "main": "dist/index.js",
+  "peerDependencies": { "@agentix-e/sqlvec-db-cluster": "^1.0.0" },
+  "dependencies": { "zeromq": "^6.5.0" },
+  "license": "MIT", "publishConfig": { "access": "public" }
+}
